@@ -21,16 +21,39 @@ release = '1'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.todo'
 
 ]
+
 
 templates_path = ['_templates']
 exclude_patterns = []
 
+html_logo = "assets/moilapp.png"
+html_theme_options = {'logo_only': True, 'display_version': False,}
 
+html_show_sourcelink = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+latex_elements = {'extraclassoptions': 'openany, oneside',
+                  'papersize': 'a4paper',}
+latex_font_size = '12pt, oneside'
+latex_logo = 'assets/moilapp.png'
+#latex_theme = "sphinx_rtd_theme"
+
+# Atur posisi gambar di tengah sampul
+#latex_elements['logo_position'] = 'c'
+
+# Atur jarak vertikal antara gambar dan judul
+#latex_elements['logo_top'] = '2cm'
+
+# Atur jarak vertikal antara gambar dan nama penulis
+#latex_elements['logo_bottom'] = '1cm'
+
+

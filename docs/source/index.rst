@@ -16,12 +16,5 @@ Welcome to Sphinx Documentation's documentation!
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 .. note::
    this project is under development.
