@@ -1,0 +1,32 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{AnypointConfig}\spxextra{class in test}, \hyperpage{1}
+
+  \indexspace
+  \bigletter C
+  \item \spxentry{change\_properties\_mode\_1()}\spxextra{test.AnypointConfig method}, 
+		\hyperpage{1}
+  \item \spxentry{change\_properties\_mode\_2()}\spxextra{test.AnypointConfig method}, 
+		\hyperpage{1}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{module}
+    \subitem \spxentry{test}, \hyperpage{1}
+
+  \indexspace
+  \bigletter S
+  \item \spxentry{showing\_config\_mode\_1()}\spxextra{test.AnypointConfig method}, \hyperpage{1}
+  \item \spxentry{showing\_config\_mode\_2()}\spxextra{test.AnypointConfig method}, \hyperpage{1}
+
+  \indexspace
+  \bigletter T
+  \item \spxentry{test}
+    \subitem \spxentry{module}, \hyperpage{1}
+
+\end{sphinxtheindex}
